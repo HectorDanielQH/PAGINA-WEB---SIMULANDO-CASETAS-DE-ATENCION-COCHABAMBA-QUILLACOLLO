@@ -1,0 +1,134 @@
+*{
+    padding:0px;
+    margin:0px;
+    transition:all ease-in 0.2s;
+}
+nav{
+    position:fixed;
+    background-color:rgba(0, 0, 0, 0.87);
+    display: flex;
+    width:100%;
+    height:10%;
+    justify-content:space-around;
+    align-items: center;
+    box-shadow: 1px 1px 10px 6px black;
+    top: 0px;
+    padding-top: 10px;
+}
+a{
+    text-decoration:none;
+    font-size:20px;
+    color:aliceblue;
+}
+li{
+    list-style: none;
+}
+nav div h1,h2{
+    color:rgb(255, 153, 0);
+    text-shadow: 1px 1px 20px white,2px 2px 2px black;
+    font-size:25px;
+}
+header{
+    display: flex;
+    width:100%;
+    height:100vh;
+    background-image: url('https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2019/2/6/7_p1_vias_bolivia.jpg?itok=rupS3iaE');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.lista{
+    display: flex;
+    height:100%;
+    align-items: center;
+    justify-content:center;
+    padding: 0;
+    margin: 0;
+}
+.despliegue a{
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding:10px;
+}
+.boton{
+    margin-bottom: 15px;
+}
+.despliegue a{
+    background-color: rgba(255, 0, 0, 0.534);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.despliegue:hover a{
+    background-color: rgba(255, 0, 0, 0.534);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.despliegue a:hover{
+    background-color: rgba(0, 112, 216, 0.548);
+    color: rgb(255, 255, 255);
+}
+.lista:hover .despliegue ul{
+    display:flex;
+    flex-direction: column;
+}
+.despliegue:hover ul{
+    display:flex;
+    flex-direction: column;
+}
+.despliegue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%; 
+}
+.despliegue ul{
+    position:fixed;
+    display:none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.541);
+    border-radius: 30px;
+    padding: 0;
+    top:10%;
+}
+.despliegue ul li{
+    margin:30px;
+}
+.fondo{
+    display:flex;
+    background-color:rgba(0, 0, 0, 0.507);
+    width:100%;
+    height:100vh;
+}
+.boton-uno{
+    display:flex;
+    width:100%;
+    height:20vh;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Vista_Aerea_del_Cristo_de_la_Concordia.jpg/1020px-Vista_Aerea_del_Cristo_de_la_Concordia.jpg');
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 50px 0px;
+}
+.fondo-uno{
+    display: flex;
+    width:100%;
+    height:20vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.479);
+}
+.mapa{
+    display: flex;
+    width:90%;
+    height:80vh;
+    border-radius: 35px;
+    margin: 35px auto;
+}
